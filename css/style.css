@@ -6,9 +6,11 @@
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
 html, body {
-	margin: 0;
+	margin: auto;
 	box-sizing: border-box;
 }
+
+
 
 .container {
 	margin: 0 auto;
@@ -40,6 +42,9 @@ html, body {
 /*corrects IE min-height bug*/
 html { display: flex;}
 body { width: 100%;}
+body {
+	margin: auto;
+}
 
 .sfooter {
 	display: flex;
@@ -61,6 +66,42 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+header{
+	background-color: black;
+padding: 25px;
+}
+
+h1, em {
+	color: lime;
+	display: inline;
+}
+
+.instructions-wrapper{
+	border-style: solid;
+	border-spacing: inherit;
+	align-content: center;
+	padding-left: 50px;
+
+
+}
 
 
 
+table, td, th {
+	border: 1px solid white;
+	color: lime;
+	width: 100%;
+
+}
+
+th,td {
+	background-color: black;
+	padding: 15px;
+	text-align: left;
+}
+
+
+.css-list {
+	color: blue;
+	list-style-type: square;
+}
