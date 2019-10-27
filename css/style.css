@@ -85,23 +85,37 @@ h1, em {
 
 }
 
-
-
-table, td, th {
-	border: 1px solid white;
-	color: lime;
-	width: 100%;
+.instructions-content{
+	align: left;
 
 }
+
+table{
+	width: 100%;
+	border: 1px solid white;
+	color: lime;
+}
+
+
 
 th,td {
 	background-color: black;
 	padding: 15px;
 	text-align: left;
+	position: relative;
+
 }
 
+.about-me {
+	background-color: blue;
+	text-align: right;
 
-.css-list {
-	color: blue;
-	list-style-type: square;
+}
+
+.form-wrapper{
+	text-color: lime;
+}
+
+.form-wrapper{
+	background-color: darkgreen;
 }
