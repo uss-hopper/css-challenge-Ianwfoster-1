@@ -76,6 +76,10 @@ h1, em {
 	display: inline;
 }
 
+.container img{
+
+}
+
 .instructions-wrapper{
 	border-style: solid;
 	border-spacing: inherit;
@@ -85,10 +89,7 @@ h1, em {
 
 }
 
-.instructions-content{
-	align: left;
 
-}
 
 table{
 	width: 100%;
@@ -108,14 +109,28 @@ th,td {
 
 .about-me {
 	background-color: blue;
-	text-align: right;
+	height: 25em;
 
 }
 
-.form-wrapper{
-	text-color: lime;
-}
 
 .form-wrapper{
 	background-color: darkgreen;
+
+	}
+
+.about-me .container{
+	columns:2;
 }
+.about-me img{
+	height: 20em;
+	border: solid white;
+}
+
+.instructions-wrapper img{
+	height: 10em;
+	float: right;
+
+}
+
+
