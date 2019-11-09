@@ -99,5 +99,15 @@ img[alt="welcome to my homepage"] {
 	border: 3px solid black;
 	padding: 20px;
 }
+.instructions-wrapper img{
+	width: 300px;
+}
+.instructions-content{
+	flex: 1;
+	padding: 2rem;
+}
+.instructions-content h2{
+	margin-top: 0;
+}
 
 
