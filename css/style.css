@@ -85,5 +85,13 @@ header h1{
 	display: inline-block;
 	margin-right: 2rem;
 }
+/**
+welcome area mock ups
+ */
+
+img[alt="welcome to my homepage"] {
+	display: block;
+	margin: 0 auto 2rem;
+}
 
 
