@@ -93,5 +93,11 @@ img[alt="welcome to my homepage"] {
 	display: block;
 	margin: 0 auto 2rem;
 }
+.instructions-wrapper{
+	display: flex;
+	align-items: flex-start;
+	border: 3px solid black;
+	padding: 20px;
+}
 
 
