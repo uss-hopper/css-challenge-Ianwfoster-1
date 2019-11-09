@@ -106,10 +106,10 @@ img[alt="welcome to my homepage"]{
 }
 .instructions-content{
 	flex: 1;
-	pading: 2rem;
+	padding: 2rem;
 }
 .instructions-content h2{
-	margin-top: o;
+	margin-top: 0;
 }
 /*
 about me
