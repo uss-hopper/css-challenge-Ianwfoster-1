@@ -66,8 +66,8 @@ body {
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-/** Global styles
- */
+/** Global styles :)
+ **/
 body{
 	font-family: "Courier New", serif;
 }
@@ -75,9 +75,15 @@ body{
 section {
 	padding: 2.75rem 0;
 }
-/**header styles
- */
+/**header mokups
+ **/
 header {
 	background-color: rgba(51, 51, 51, 0.74);
-	text-decoration-color: lime;
+	color: lime;
 }
+header h1{
+	display: inline-block;
+	margin-right: 2rem;
+}
+
+
