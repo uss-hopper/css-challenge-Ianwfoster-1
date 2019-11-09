@@ -69,7 +69,7 @@ body {
 /** Global styles
  */
 body{
-	font-family: "Courier New";
+	font-family: "Courier New", serif;
 }
 
 section {
@@ -177,7 +177,7 @@ label{
 	 color: white;
 	 text-align: center;
  }
-/**
+
 header{
 	background-color: black;
 padding: 25px;
